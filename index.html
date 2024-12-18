@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Decision Coin Flip</title>
+    <title>Heads or Tails Coin Flip</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Decision Coin Flip</h1>
+    <h1>Heads or Tails</h1>
     
-    <div class="input-container">
-        <input type="text" id="option1" placeholder="Enter first option">
-        <input type="text" id="option2" placeholder="Enter second option">
+    <div class="coin-container">
+        <div class="coin" id="coin">
+            <div class="heads">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Quarter_Obverse_2023.png" alt="heads">
+            </div>
+            <div class="tails">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Quarter_Reverse_2023.png" alt="tails">
+            </div>
+        </div>
     </div>
 
     <button onclick="flipCoin()">Flip Coin!</button>
-
-    <div class="coin" id="coin">
-        Click to flip!
-    </div>
-
     <div id="result"></div>
 
     <script src="js/script.js"></script>
